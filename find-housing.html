@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find Housing | HomeStay SL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">⌂</span>
+        <span class="brand-copy">
+          <strong>HomeStay SL</strong>
+          <span>Campus Housing</span>
+        </span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="listings.html">Browse Listings</a>
+        <a class="active" href="find-housing.html">Find Housing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <span class="campus-pill">📍 LIMKOKWING SL</span>
+        <span class="user-icon">♟</span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="find-hero">
+      <div class="container">
+        <span class="hero-badge">✓ &nbsp; VERIFIED STUDENT ACCOMMODATION</span>
+        <h1>Find housing near campus</h1>
+        <p>Choose an area, set your budget, and explore verified student homes.</p>
+
+        <form class="search-bar" action="listings.html">
+          <input
+            type="search"
+            aria-label="Search by location"
+            placeholder="⌕  Search by area, street, or landmark..."
+          >
+          <button class="btn" type="submit">Search Housing</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="find-main container">
+      <div class="find-heading">
+        <div>
+          <span class="eyebrow">HOUSING SEARCH</span>
+          <h2>Homes near Limkokwing SL</h2>
+          <p>Browse verified student accommodation around Hill Station and Freetown.</p>
+        </div>
+        <span class="tag">4 verified homes</span>
+      </div>
+
+      <div class="find-layout">
+        <aside class="find-filters">
+          <h3>Refine your search</h3>
+
+          <label class="find-field">
+            <span>Area</span>
+            <select>
+              <option>All areas</option>
+              <option>Hill Station</option>
+              <option>Lumley</option>
+              <option>Brookfields</option>
+              <option>Wilberforce</option>
+            </select>
+          </label>
+
+          <label class="find-field">
+            <span>Maximum monthly rent</span>
+            <select>
+              <option>Any price</option>
+              <option>Up to $75</option>
+              <option>Up to $100</option>
+              <option>Up to $150</option>
+            </select>
+          </label>
+
+          <fieldset class="find-checks">
+            <legend>Room type</legend>
+            <label><input type="checkbox"> Shared room</label>
+            <label><input type="checkbox"> Private room</label>
+            <label><input type="checkbox"> Studio</label>
+            <label><input type="checkbox"> Hostel</label>
+          </fieldset>
+
+          <fieldset class="find-checks">
+            <legend>Must-have amenities</legend>
+            <label><input type="checkbox"> WiFi</label>
+            <label><input type="checkbox"> Study desk</label>
+            <label><input type="checkbox"> En-suite bathroom</label>
+            <label><input type="checkbox"> Security</label>
+          </fieldset>
+
+          <a class="btn find-filter-button" href="listings.html">Show matching homes</a>
+        </aside>
+
+        <div class="find-results">
+          <div class="find-map">
+            <div class="map-road road-one"></div>
+            <div class="map-road road-two"></div>
+            <div class="map-road road-three"></div>
+            <span class="map-campus">Limkokwing Campus</span>
+            <span class="map-pin pin-one">📍 Hill Station</span>
+            <span class="map-pin pin-two">📍 Lodge Cres</span>
+            <span class="map-pin pin-three">📍 Lumley</span>
+            <span class="map-pin pin-four">📍 Brookfields</span>
+            <span class="map-caption">Campus area overview</span>
+          </div>
+
+          <div class="find-result-heading">
+            <h3>Recommended homes</h3>
+            <span>Sorted by distance to campus</span>
+          </div>
+
+          <div class="find-listings">
+            <article class="listing-card">
+              <div class="listing-image">
+                <img
+                  src="./image/WhatsApp Image 2026-10-24 at 9.28.36 AM.jpeg"
+                  alt="Shared student bedroom"
+                >
+                <span class="image-label">📍 0.8 km to campus</span>
+              </div>
+              <div class="listing-content">
+                <div class="listing-title-row">
+                  <h3>Shared Room, Lodge Cres</h3>
+                  <div class="price">$85 <small>/mo</small></div>
+                </div>
+                <div class="listing-meta">
+                  <span>📍 Hill Station, Freetown</span>
+                  <span>▤ 2 beds</span>
+                </div>
+                <div class="amenities">
+                  <span>Shared Bath</span>
+                  <span>Study Desk</span>
+                  <span>WiFi</span>
+                </div>
+                <div class="card-bottom">
+                  <span>✓ Verified listing</span>
+                  <a class="btn" href="contact.html">Enquire →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-image">
+                <img
+                  src="./image/WhatsApp Image 2026-10-24 at 9.33.35 AM.jpeg"
+                  alt="Private student room"
+                >
+                <span class="image-label">📍 0.6 km to campus</span>
+              </div>
+              <div class="listing-content">
+                <div class="listing-title-row">
+                  <h3>Single Room, Lumley</h3>
+                  <div class="price">$120 <small>/mo</small></div>
+                </div>
+                <div class="listing-meta">
+                  <span>📍 Lumley Road, Freetown</span>
+                  <span>♟ Private room</span>
+                </div>
+                <div class="amenities">
+                  <span>En-Suite</span>
+                  <span>Wardrobe</span>
+                  <span>Security</span>
+                </div>
+                <div class="card-bottom">
+                  <span>✓ Verified listing</span>
+                  <a class="btn" href="contact.html">Enquire →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-image">
+                <img
+                  src="./image/WhatsApp Image 2026-10-24 at 9.33.36 AM.jpeg"
+                  alt="Budget student hostel room"
+                >
+                <span class="image-label">📍 Brookfields</span>
+              </div>
+              <div class="listing-content">
+                <div class="listing-title-row">
+                  <h3>Hostel Room, Brookfields</h3>
+                  <div class="price">$60 <small>/mo</small></div>
+                </div>
+                <div class="listing-meta">
+                  <span>📍 Old Railway Line, Freetown</span>
+                  <span>♟ Shared quarters</span>
+                </div>
+                <div class="amenities">
+                  <span>Study Desk</span>
+                  <span>24/7 Gate</span>
+                  <span>Water Tank</span>
+                </div>
+                <div class="card-bottom">
+                  <span>✓ Verified listing</span>
+                  <a class="btn" href="contact.html">Enquire →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-image">
+                <img
+                  src="./image/WhatsApp Image 2026-10-24 at 9.46.55 AM.jpeg"
+                  alt="Self-contained studio apartment"
+                >
+                <span class="image-label">📍 Wilberforce</span>
+              </div>
+              <div class="listing-content">
+                <div class="listing-title-row">
+                  <h3>Studio, Wilberforce</h3>
+                  <div class="price">$150 <small>/mo</small></div>
+                </div>
+                <div class="listing-meta">
+                  <span>📍 Wilberforce Heights</span>
+                  <span>⌂ Self-contained</span>
+                </div>
+                <div class="amenities">
+                  <span>Kitchenette</span>
+                  <span>WiFi</span>
+                  <span>Private Bath</span>
+                </div>
+                <div class="card-bottom">
+                  <span>✓ Verified listing</span>
+                  <a class="btn" href="contact.html">Enquire →</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main container">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <span class="brand-mark">⌂</span>
+          <span class="brand-copy">
+            <strong>HomeStay SL</strong>
+            <span>Campus Housing</span>
+          </span>
+        </a>
+        <p>Safe Stays. Better Studies. Brighter Futures.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="listings.html">Browse Listings</a>
+        <a href="find-housing.html">Find Housing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div>
+        <h3>Support</h3>
+        <p>☎ &nbsp; +232 76 123 456</p>
+        <p>✉ &nbsp; support@homestaysl.com</p>
+        <p>♦ &nbsp; Freetown, Sierra Leone</p>
+      </div>
+
+      <div>
+        <h3>Follow Us</h3>
+        <div class="footer-socials">
+          <a href="#">f</a><a href="#">◎</a><a href="#">𝕏</a><a href="#">▶</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <span>© 2025 HomeStay SL. All rights reserved.</span>
+      <span class="footer-policy">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
